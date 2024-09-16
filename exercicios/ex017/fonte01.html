@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+        }
+
+        h1, h2 {
+            /*
+            ***Não precisa escrever desse forma:
+            font-family: 'Work sans', sans-serif
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic
+
+            ***Simplificar assim:
+            shorthand font = Simplificar as caracteristicas da fonte
+            font-style -> font-weight -> font-size -> font-family 
+            */
+            font:italic bolder 3em 'work sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Modi in sequi ducimus aut sint tenetur esse, exercitationem illo
+    id laboriosam dicta eos nulla accusamus? Nobis ratione corporis 
+    sunt provident earum. Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit. Porro nulla odit exercitationem eos quo iure 
+    esse nisi labore quaerat libero, nihil dicta deserunt quam 
+    reprehenderit neque ex facere. Maiores, assumenda?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Debitis quaerat maxime voluptatibus quam numquam eum dolorem 
+    explicabo dolor pariatur accusamus. Itaque molestiae assumenda 
+    quidem fuga obcaecati ducimus velit numquam sed!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+    Tempora eos impedit, eaque delectus aliquam consectetur quod
+    ipsum soluta voluptatibus earum quos libero quaerat autem vero 
+    quas eligendi sed eum? Laudantium!</p>
+</body>
+</html>
